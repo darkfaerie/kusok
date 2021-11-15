@@ -48,11 +48,11 @@ namespace lab4._1
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad5:
-                    Console.WriteLine("menu:5");
+                    Console.WriteLine($"Получили что-то такое:{Convert.ToInt32(ads) * Convert.ToInt32(bd)}");
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad6:
-                    Console.WriteLine("menu:6");
+                    Console.WriteLine($"Получили что-то такое:{Convert.ToInt32(ads) / Convert.ToInt32(bd)}");
                     sniffmenu();
                     break;
 
