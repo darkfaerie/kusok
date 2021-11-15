@@ -35,7 +35,8 @@ namespace lab4._1
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad2:
-                    Console.WriteLine("menu:2");
+                    Console.WriteLine("Введи B");
+                    bd = Console.ReadLine();
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad3:
