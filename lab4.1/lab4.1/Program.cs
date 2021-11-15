@@ -40,7 +40,7 @@ namespace lab4._1
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad3:
-                    Console.WriteLine("menu:3");
+                    Console.WriteLine($"Получили что-то такое:{Convert.ToInt32(ads) + Convert.ToInt32(bd)}");
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad4:
