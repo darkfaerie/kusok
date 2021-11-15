@@ -27,7 +27,7 @@ namespace lab4._1
         static void sniffmenu()
         {
             var input = Console.ReadKey();
-            switch (input.Key) //Switch on Key enum
+            switch (input.Key) //Switch для номера нажатой клавиши
             {
                 case ConsoleKey.NumPad1:
                     Console.WriteLine("Введи А");
