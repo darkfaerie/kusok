@@ -8,7 +8,7 @@ namespace lab4._1
 {
     class Program
     {
-        string a, b;
+        public static string ads, bd;
         static void Main(string[] args)
         {
             sniffconsole();
@@ -30,7 +30,8 @@ namespace lab4._1
             switch (input.Key) //Switch on Key enum
             {
                 case ConsoleKey.NumPad1:
-                    Console.WriteLine("menu:1");
+                    Console.WriteLine("Введи А");
+                    ads = Console.ReadLine();
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad2:
