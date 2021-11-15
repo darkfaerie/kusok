@@ -43,8 +43,8 @@ namespace lab4._1
                     Console.WriteLine($"Получили что-то такое:{Convert.ToInt32(ads) + Convert.ToInt32(bd)}");
                     sniffmenu();
                     break;
-                case ConsoleKey.NumPad4:
-                    Console.WriteLine("menu:4");
+                case ConsoleKey.NumPad4:                   
+                    Console.WriteLine($"Получили что-то такое:{Convert.ToInt32(ads) - Convert.ToInt32(bd)}");
                     sniffmenu();
                     break;
                 case ConsoleKey.NumPad5:
