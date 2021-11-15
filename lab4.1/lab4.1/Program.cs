@@ -10,6 +10,7 @@ namespace lab4._1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("menu");
         }
     }
 }
